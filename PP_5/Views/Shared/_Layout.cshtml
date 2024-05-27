@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - DNS</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("DNS", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Customers", "Index", "Customer", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Providers", "Index", "Provider", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Component_Types", "Index", "Component_Type", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Orders", "Index", "Order", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Product_in_Orders", "Index", "Product_in_Order", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Products", "Index", "Product", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <footer class="custom-footer bg-dark">
+        <p>&copy; @DateTime.Now.Year - DNS - интернет магазин</p>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
