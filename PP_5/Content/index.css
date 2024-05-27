@@ -1,0 +1,56 @@
+﻿
+.text-center {
+    text-align: center !important;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.left-width-image {
+    width: 50%;
+    height: auto;
+}
+
+.right-width-image {
+    width: 50%;
+    height: auto;
+    left: 50%;
+}
+
+.custom-footer {
+    color: #6c757d;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.right-text {
+    left: 50%;
+}
+
+.container1 {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+body {
+    color: #ABB5BE;
+    background: #6c757d;
+}
+
+.container-text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-head {
+    margin-bottom: 35px;
+}
+
+.sign-button{
+    margin-right: 30px;
+}
+

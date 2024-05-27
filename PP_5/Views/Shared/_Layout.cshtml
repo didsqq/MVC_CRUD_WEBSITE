@@ -7,6 +7,7 @@
     <title>@ViewBag.Title - DNS</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Content/index.css" />
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
@@ -22,6 +23,7 @@
                     <li>@Html.ActionLink("Products", "Index", "Product", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
             </div>
+            @Html.ActionLink("Sign In", "Index", "SignIn", new { area = "" }, new { @class = "sign-button btn btn-outline-light" })
         </div>
     </nav>
 
