@@ -23,7 +23,8 @@
                     <li>@Html.ActionLink("Products", "Index", "Product", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
             </div>
-            @Html.ActionLink("Sign In", "Index", "SignIn", new { area = "" }, new { @class = "sign-button btn btn-outline-light" })
+            @Html.ActionLink("Sign In", "SignIn", "SignIn", new { area = "" }, new { @class = "btn btn-outline-light" })
+            @Html.ActionLink("Sign Up", "SignUp", "SignUp", new { area = "" }, new { @class = "sign-button btn btn-outline-light" })
         </div>
     </nav>
 

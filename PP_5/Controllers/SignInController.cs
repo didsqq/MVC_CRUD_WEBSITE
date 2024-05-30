@@ -15,27 +15,45 @@ namespace PP_5.Controllers
     {
         private ShopContext db = new ShopContext();
         // GET: SignIn
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult LogIn()
+        public ActionResult SignIn()
         {
             return View();
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult LogIn([Bind(Include = "Email,Password")] Customer customer)
+        public ActionResult SignIn(Customer customer)
         {
-            var existingCustomer = db.Customers.FirstOrDefault(c => c.Email == customer.Email && c.Password == customer.Password);
-
-            if (existingCustomer != null)
+            if (ModelState.IsValid)
             {
-                return RedirectToAction("LogIn", "SignIn");
+                Customer existingCustomer = new Customer();
+                try
+                {
+                    customer.Password = GetHashString(customer.Password);
+                    existingCustomer = db.Customers.FirstOrDefault(c => c.Email == customer.Email && c.Password == customer.Password);
+                }
+                catch ( ArgumentNullException ex )
+                {
+                    ModelState.AddModelError("", $"Пользователь не найден: {ex.Message}");
+                }
+                if (existingCustomer != null)
+                {
+                    Session["CurrentCustomer"] = existingCustomer;
+                    return RedirectToAction("Profile", "Profile");
+                }
+                ModelState.AddModelError("", "Ошибка ввода логина или пароля");
             }
-
-            return View();
+            return View(customer);
+        }
+        public static string GetHashString(string s)
+        {
+            byte[] bytes = Encoding.Unicode.GetBytes(s);
+            MD5CryptoServiceProvider CSP = new MD5CryptoServiceProvider();
+            byte[] byteHash = CSP.ComputeHash(bytes);
+            string hash = "";
+            foreach (byte b in byteHash)
+            {
+                hash += string.Format("{0:x2}", b);
+            }
+            return hash;
         }
     }
 }
