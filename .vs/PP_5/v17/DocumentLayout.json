@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\pp_5\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\controllers\\toolsusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\toolsusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\pp_5\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\pp_5\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\pp_5\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "PP_5\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "PP_5\\Controllers\\ProfileController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T15:20:13.229Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,48 +40,49 @@
               "RelativeDocumentMoniker": "PP_5\\Views\\Profile\\Profile.cshtml",
               "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Profile\\Profile.cshtml",
               "RelativeToolTip": "PP_5\\Views\\Profile\\Profile.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T15:19:58.786Z",
+              "WhenOpened": "2024-05-30T17:11:20.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SignUpController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\SignUpController.cs",
-              "RelativeDocumentMoniker": "PP_5\\Controllers\\SignUpController.cs",
-              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\SignUpController.cs",
-              "RelativeToolTip": "PP_5\\Controllers\\SignUpController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABaAAAA",
+              "Title": "ToolsUserController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ToolsUserController.cs",
+              "RelativeDocumentMoniker": "PP_5\\Controllers\\ToolsUserController.cs",
+              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ToolsUserController.cs",
+              "RelativeToolTip": "PP_5\\Controllers\\ToolsUserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T14:40:16.666Z",
+              "WhenOpened": "2024-05-30T17:08:03.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignInController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\SignInController.cs",
-              "RelativeDocumentMoniker": "PP_5\\Controllers\\SignInController.cs",
-              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\SignInController.cs",
-              "RelativeToolTip": "PP_5\\Controllers\\SignInController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T14:00:34.461Z",
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "PP_5\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "PP_5\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T17:03:29.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Web.config",
-              "RelativeDocumentMoniker": "PP_5\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Web.config",
-              "RelativeToolTip": "PP_5\\Views\\Web.config",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-30T13:35:44.967Z"
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PP_5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PP_5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T16:41:06.45Z",
+              "EditorCaption": ""
             }
           ]
         },

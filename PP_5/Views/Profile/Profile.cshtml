@@ -1,6 +1,7 @@
 ﻿@model PP_5.Models.Customer
 @{
     ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
 }
 
 <h2>Профиль пользователя</h2>
@@ -9,3 +10,4 @@
 <p>Email: @Model.Email</p>
 <p>Номер телефона: @Model.Phone</p>
 
+@Html.ActionLink("Edit", "Edit", new { id = @Model.CustomerID })
