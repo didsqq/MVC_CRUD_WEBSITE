@@ -14,6 +14,9 @@
         <div class="container">
             @Html.ActionLink("DNS", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Products", "Products", "ToolsUser", new { area = "" }, new { @class = "sign-button btn btn-outline-light" })</li>
+                </ul>
             </div>
             @Html.ActionLink("Profile", "Profile", "ToolsUser", new { area = "" }, new { @class = "btn btn-outline-light" })
             @Html.ActionLink("Log Out", "LogOut", "ToolsUser", new { area = "" }, new { @class = "sign-button btn btn-outline-light" })

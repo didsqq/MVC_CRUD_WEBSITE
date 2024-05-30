@@ -256,10 +256,10 @@
     <Content Include="Views\Shared\_LayoutCustomer.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Profile\AdminProfile.cshtml" />
+    <Content Include="Views\ToolsUser\Products.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\ToolsUser\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
