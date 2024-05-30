@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
 using PP_5.DAL;
@@ -51,27 +52,31 @@ namespace PP_5.Controllers
             db.SaveChanges();
             return RedirectToAction("Orders");
         }
-        /*        public ActionResult Buy(int? id)
-                {
-                    customer = (Customer)Session["CurrentCustomer"];
-                    Product product = db.Products.Find(id);
-
-                    if (product != null && customer != null)
-                    {
-                        order = new Order();
-                        order.ProductID = product.ProductID;
-                        order.CustomerID = customer.CustomerID;
-                        order.Total_Amount += product.Price;
-                        order.Status = "Новый заказ";
-                        order.Product_Count++;
-                        order.Date = DateTime.Now;
-                        product.Count--;
-                        db.Orders.Add(order);
-                        db.SaveChanges();
-                    }
-
-                    return RedirectToAction("Products");
-                }*/
+        public ActionResult Order(int? id)
+        {
+            customer = (Customer)Session["CurrentCustomer"];
+            MailAddress from = new MailAddress("didsqq@yandex.ru", "Adel");
+            Order order = db.Orders.Find(id);
+            try
+            {
+                MailAddress to = new MailAddress(customer.Email);
+                MailMessage m = new MailMessage(from, to);
+                m.Subject = "Заказ оформлен";
+                m.Body = $"Поздравляю, ваш заказ на сумму {order.Total_Amount} оформлен\n\n\nВремя оформления:{order.Date}";
+                m.IsBodyHtml = true;
+                SmtpClient smtp = new SmtpClient("smtp.yandex.ru", 587);
+                smtp.Credentials = new NetworkCredential("didsqq@yandex.ru", "lhybtwljdlunlgjk");
+                smtp.EnableSsl = true;
+                smtp.Send(m);
+                order.Status = "Оформлен";
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message.ToString());
+            }
+            return RedirectToAction("Orders");
+        }
         [HttpPost]
         public ActionResult Buy(int? id, int quantity)
         {

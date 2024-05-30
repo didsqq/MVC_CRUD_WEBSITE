@@ -13,7 +13,7 @@ namespace PP_5.Models
         [Key] public int ProductID { get; set; }
         public string Name { get; set; }
         public int Count { get; set; }
-        public SqlMoney Price { get; set; }
+        public decimal Price { get; set; }
         public int Warranty_Period { get; set; }
         public int ProviderID { get; set; }
         public int TypeID { get; set; }

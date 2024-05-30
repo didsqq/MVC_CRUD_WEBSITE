@@ -19,6 +19,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Warranty_Period)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
         <th>Quantity</th>
         <th></th>
     </tr>
@@ -37,6 +40,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Warranty_Period)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
                 @using (Html.BeginForm("Buy", "ToolsUser", FormMethod.Post))

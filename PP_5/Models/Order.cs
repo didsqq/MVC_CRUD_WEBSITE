@@ -11,7 +11,7 @@ namespace PP_5.Models
     {
         [Key] public int OrderID { get; set; }
         public DateTime Date { get; set; }
-        public SqlMoney Total_Amount { get; set; }
+        public decimal Total_Amount { get; set; }
         public string Status { get; set; }
         public int Product_Count { get; set; }
         public int CustomerID { get; set; }

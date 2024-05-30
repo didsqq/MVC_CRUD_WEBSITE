@@ -165,6 +165,10 @@
     <Compile Include="Migrations\202405301946258_deletetable.Designer.cs">
       <DependentUpon>202405301946258_deletetable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405302103379_sqlmoneytodecimal.cs" />
+    <Compile Include="Migrations\202405302103379_sqlmoneytodecimal.Designer.cs">
+      <DependentUpon>202405302103379_sqlmoneytodecimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Component_Type.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -302,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405301946258_deletetable.resx">
       <DependentUpon>202405301946258_deletetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405302103379_sqlmoneytodecimal.resx">
+      <DependentUpon>202405302103379_sqlmoneytodecimal.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

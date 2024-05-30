@@ -30,6 +30,15 @@ namespace PP_5.Controllers
             }
             return View(customer);
         }
+
+        public ActionResult Delete(int? id)
+        {
+            Customer customer = _shopContext.Customers.Find(id);
+            _shopContext.Customers.Remove(customer);
+            _shopContext.SaveChanges();
+            HttpContext.Session.Clear();
+            return RedirectToAction("SignIn","SignIn");
+        }
         [HttpGet]
         public ActionResult Edit() 
         {

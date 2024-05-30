@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Text.RegularExpressions;
+using System.Web.Helpers;
+using System.Security.Policy;
 
 namespace PP_5.Controllers
 {
@@ -23,13 +26,22 @@ namespace PP_5.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (!_shopContext.Customers.Any(y => y.Phone == customer.Phone) &&
-                    !_shopContext.Customers.Any(z => z.Email == customer.Email))
+                string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+                string phonePattern = @"^(\+?\d{1,3}[-.\s]?(\(?\d{1,4}\)?)?[-.\s]?)?(\d{1,4}[-.\s]?){1,3}\d{1,4}$";
+                if (!_shopContext.Customers.Any(y => y.Phone == customer.Phone) && !_shopContext.Customers.Any(z => z.Email == customer.Email))
                 {
-                    customer.Password = SignInController.GetHashString(customer.Password);
-                    _shopContext.Customers.Add(customer);
-                    _shopContext.SaveChanges();
-                    return RedirectToAction("SignIn", "SignIn");
+                    if(Regex.IsMatch(customer.Email, emailPattern) && Regex.IsMatch(customer.Phone, phonePattern))
+                    {
+                        customer.Password = SignInController.GetHashString(customer.Password);
+                        _shopContext.Customers.Add(customer);
+                        _shopContext.SaveChanges();
+                        return RedirectToAction("SignIn", "SignIn");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Почта или телефон не подходит");
+                        return View(customer);
+                    }
                 }
                 ModelState.AddModelError("", "Пользователь с такими данными уже существует.");
             }

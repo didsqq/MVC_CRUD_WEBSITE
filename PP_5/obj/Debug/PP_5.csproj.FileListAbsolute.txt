@@ -187,3 +187,4 @@ C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.csproj.GenerateResour
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.AddEnum.resources
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.202405301943148_AddUserRoleToCustomer.resources
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.deletetable.resources
+C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.sqlmoneytodecimal.resources
