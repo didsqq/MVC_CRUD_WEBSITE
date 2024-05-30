@@ -18,5 +18,13 @@ namespace PP_5.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("SignIn", "SignIn");
         }
+        public ActionResult Profile()
+        {
+            return RedirectToAction("Profile", "Profile");
+        }
+        public ActionResult AdminProfile()
+        {
+            return RedirectToAction("AdminProfile", "Profile");
+        }
     }
 }

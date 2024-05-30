@@ -1,3 +1,19 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@using PP_5.Models
+@{
+    var user = (Customer)Session["CurrentCustomer"];
+    if(user != null)
+    {
+        if (user.root == UserRole.ADMIN)
+        {
+            Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+        }
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
 }

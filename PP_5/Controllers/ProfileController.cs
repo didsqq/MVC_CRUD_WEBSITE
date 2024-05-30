@@ -21,6 +21,16 @@ namespace PP_5.Controllers
             return View(customer);
         }
         [HttpGet]
+        public ActionResult AdminProfile()
+        {
+            var customer = (Customer)Session["CurrentCustomer"];
+            if (customer == null)
+            {
+                return View("~/Views/SignIn/SignIn.cshtml");
+            }
+            return View(customer);
+        }
+        [HttpGet]
         public ActionResult Edit() 
         {
             var customer = (Customer)Session["CurrentCustomer"];
@@ -42,7 +52,14 @@ namespace PP_5.Controllers
                     customersave.Email = customer.Email;
                     _shopContext.SaveChanges();
                     Session["CurrentCustomer"] = customersave;
-                    return RedirectToAction("Profile");
+                    if (customersave.root == UserRole.ADMIN)
+                    {
+                        return RedirectToAction("AdminProfile");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Profile");
+                    }
                 }
             }
             return View(customeredit);

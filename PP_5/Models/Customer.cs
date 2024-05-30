@@ -13,6 +13,12 @@ namespace PP_5.Models
         public string Phone { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public UserRole root {  get; set; }
         public virtual ICollection<Order> Orders { get; set; }
+    }
+    public enum UserRole
+    {
+        ADMIN = 1,
+        NOTADMIN = 0
     }
 }

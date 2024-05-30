@@ -37,7 +37,14 @@ namespace PP_5.Controllers
                 if (existingCustomer != null)
                 {
                     Session["CurrentCustomer"] = existingCustomer;
-                    return RedirectToAction("Profile", "Profile");
+                    if (existingCustomer.root == UserRole.ADMIN)
+                    {
+                        return RedirectToAction("AdminProfile", "Profile");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Profile", "Profile");
+                    }
                 }
                 ModelState.AddModelError("", "Ошибка ввода логина или пароля");
             }

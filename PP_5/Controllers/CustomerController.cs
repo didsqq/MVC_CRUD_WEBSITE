@@ -83,6 +83,7 @@ namespace PP_5.Controllers
         {
             if (ModelState.IsValid)
             {
+                customer.Password = SignInController.GetHashString(customer.Password);
                 db.Entry(customer).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
