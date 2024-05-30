@@ -139,7 +139,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="Controllers\Product_in_OrderController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\ProviderController.cs" />
     <Compile Include="Controllers\SignInController.cs" />
@@ -158,12 +157,19 @@
     <Compile Include="Migrations\202405301752182_AddEnum.Designer.cs">
       <DependentUpon>202405301752182_AddEnum.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405301943148_AddUserRoleToCustomer.cs" />
+    <Compile Include="Migrations\202405301943148_AddUserRoleToCustomer.Designer.cs">
+      <DependentUpon>202405301943148_AddUserRoleToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405301946258_deletetable.cs" />
+    <Compile Include="Migrations\202405301946258_deletetable.Designer.cs">
+      <DependentUpon>202405301946258_deletetable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Component_Type.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\Product_in_Order.cs" />
     <Compile Include="Models\Provider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -244,11 +250,6 @@
     <Content Include="Views\Order\Details.cshtml" />
     <Content Include="Views\Order\Edit.cshtml" />
     <Content Include="Views\Order\Index.cshtml" />
-    <Content Include="Views\Product_in_Order\Create.cshtml" />
-    <Content Include="Views\Product_in_Order\Delete.cshtml" />
-    <Content Include="Views\Product_in_Order\Details.cshtml" />
-    <Content Include="Views\Product_in_Order\Edit.cshtml" />
-    <Content Include="Views\Product_in_Order\Index.cshtml" />
     <Content Include="Views\SignIn\SignIn.cshtml" />
     <Content Include="Views\Profile\Profile.cshtml" />
     <Content Include="Views\SignUp\SignUp.cshtml" />
@@ -257,6 +258,7 @@
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Profile\AdminProfile.cshtml" />
     <Content Include="Views\ToolsUser\Products.cshtml" />
+    <Content Include="Views\ToolsUser\Orders.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -294,6 +296,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405301752182_AddEnum.resx">
       <DependentUpon>202405301752182_AddEnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405301943148_AddUserRoleToCustomer.resx">
+      <DependentUpon>202405301943148_AddUserRoleToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405301946258_deletetable.resx">
+      <DependentUpon>202405301946258_deletetable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

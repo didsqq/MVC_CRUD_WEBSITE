@@ -19,6 +19,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Warranty_Period)
         </th>
+        <th>Quantity</th>
         <th></th>
     </tr>
 
@@ -38,7 +39,12 @@
                 @Html.DisplayFor(modelItem => item.Warranty_Period)
             </td>
             <td>
-                @Html.ActionLink("Buy", "Buy", new { id = item.ProductID })
+                @using (Html.BeginForm("Buy", "ToolsUser", FormMethod.Post))
+                {
+                    <input type="hidden" name="id" value="@item.ProductID" />
+                    <input type="number" name="quantity" min="1" max="@item.Count" value="1" />
+                    <input type="submit" value="Buy" class="btn btn-primary" />
+                }
             </td>
         </tr>
     }

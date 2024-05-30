@@ -17,7 +17,6 @@ namespace PP_5.DAL
         public DbSet<Order> Orders { get; set;}
         public DbSet<Customer> Customers { get; set;}
         public DbSet<Component_Type> ComponentTypes { get; set;}
-        public DbSet<Product_in_Order> Product_in_Orders { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

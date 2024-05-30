@@ -15,8 +15,9 @@ namespace PP_5.Models
         public string Status { get; set; }
         public int Product_Count { get; set; }
         public int CustomerID { get; set; }
+        public int ProductID { get; set; }
 
         public virtual Customer Customer { get; set; }
-        public virtual ICollection<Product_in_Order> Product_in_Order { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

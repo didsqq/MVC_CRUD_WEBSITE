@@ -15,6 +15,7 @@ namespace PP_5.Controllers
     {
         private ShopContext db = new ShopContext();
         private Customer customer;
+        private Order order;
         // GET: ToolsUser
         public ActionResult Index()
         {
@@ -38,16 +39,62 @@ namespace PP_5.Controllers
         {
             return RedirectToAction("AdminProfile", "Profile");
         }
+        public ActionResult Orders()
+        {
+            var orders = db.Orders.Include(o => o.Customer);
+            return View(orders.ToList());
+        }
+        public ActionResult Delete(int? id)
+        {
+            Order order = db.Orders.Find(id);
+            db.Orders.Remove(order);
+            db.SaveChanges();
+            return RedirectToAction("Orders");
+        }
+        /*        public ActionResult Buy(int? id)
+                {
+                    customer = (Customer)Session["CurrentCustomer"];
+                    Product product = db.Products.Find(id);
 
-        public ActionResult Buy(int? id)
+                    if (product != null && customer != null)
+                    {
+                        order = new Order();
+                        order.ProductID = product.ProductID;
+                        order.CustomerID = customer.CustomerID;
+                        order.Total_Amount += product.Price;
+                        order.Status = "Новый заказ";
+                        order.Product_Count++;
+                        order.Date = DateTime.Now;
+                        product.Count--;
+                        db.Orders.Add(order);
+                        db.SaveChanges();
+                    }
+
+                    return RedirectToAction("Products");
+                }*/
+        [HttpPost]
+        public ActionResult Buy(int? id, int quantity)
         {
             customer = (Customer)Session["CurrentCustomer"];
             Product product = db.Products.Find(id);
-            if (product != null)
+
+            if (product != null && customer != null && quantity > 0 && quantity <= product.Count)
             {
-                product.Count--;
+                order = new Order
+                {
+                    ProductID = product.ProductID,
+                    CustomerID = customer.CustomerID,
+                    Total_Amount = product.Price * quantity,
+                    Status = "Новый заказ",
+                    Product_Count = quantity,
+                    Date = DateTime.Now
+                };
+
+                product.Count -= quantity;
+                db.Orders.Add(order);
                 db.SaveChanges();
             }
+
             return RedirectToAction("Products");
         }
     }

@@ -185,3 +185,5 @@ C:\Users\Господин\Desktop\PP_5\PP_5\bin\SendGrid.xml
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.InitialCreate.resources
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.csproj.GenerateResource.cache
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.AddEnum.resources
+C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.202405301943148_AddUserRoleToCustomer.resources
+C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.deletetable.resources

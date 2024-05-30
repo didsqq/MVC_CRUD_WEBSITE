@@ -20,6 +20,6 @@ namespace PP_5.Models
 
         public virtual Provider Provider { get; set; }
         public virtual Component_Type Component_Type { get; set; }
-        public virtual ICollection<Product_in_Order> Product_in_Order { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

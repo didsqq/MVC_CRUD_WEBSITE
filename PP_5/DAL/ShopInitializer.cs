@@ -102,28 +102,6 @@ namespace PP_5.DAL
             };
 
             orders.ForEach(s => context.Orders.Add(s));
-
-            var product_in_order = new List<Product_in_Order>
-            {
-                new Product_in_Order {ProductID = 1, OrderID = 1, Count = 2},
-                new Product_in_Order {ProductID = 2, OrderID = 2, Count = 1},
-                new Product_in_Order {ProductID = 3, OrderID = 3, Count = 1},
-                new Product_in_Order {ProductID = 4, OrderID = 4, Count = 2},
-                new Product_in_Order {ProductID = 5, OrderID = 5, Count = 3},
-                new Product_in_Order {ProductID = 6, OrderID = 6, Count = 1},
-                new Product_in_Order {ProductID = 7, OrderID = 7, Count = 2},
-                new Product_in_Order {ProductID = 8, OrderID = 8, Count = 1},
-                new Product_in_Order {ProductID = 9, OrderID = 9, Count = 2},
-                new Product_in_Order {ProductID = 10, OrderID = 10, Count = 1},
-                new Product_in_Order {ProductID = 11, OrderID = 2, Count = 1},
-                new Product_in_Order {ProductID = 12, OrderID = 5, Count = 1},
-                new Product_in_Order {ProductID = 13, OrderID = 8, Count = 1},
-                new Product_in_Order {ProductID = 14, OrderID = 1, Count = 1},
-                new Product_in_Order {ProductID = 10, OrderID = 9, Count = 1}
-            };
-
-
-            product_in_order.ForEach(s => context.Product_in_Orders.Add(s));
             context.SaveChanges();
         }
     }

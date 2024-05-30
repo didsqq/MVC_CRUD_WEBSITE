@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\pp_5\\controllers\\toolsusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\toolsusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\views\\toolsuser\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\views\\toolsuser\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\views\\toolsuser\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\views\\toolsuser\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\models\\product_in_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\models\\product_in_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\controllers\\toolsusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\toolsusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|c:\\users\\\u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\desktop\\pp_5\\pp_5\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\pp_5\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B4B913E-941D-4AC2-BFCD-D4C5AE752F68}|PP_5\\PP_5.csproj|solutionrelative:pp_5\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,67 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\ToolsUser\\Products.cshtml",
+              "RelativeDocumentMoniker": "PP_5\\Views\\ToolsUser\\Products.cshtml",
+              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\ToolsUser\\Products.cshtml",
+              "RelativeToolTip": "PP_5\\Views\\ToolsUser\\Products.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T20:02:06.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ToolsUserController.cs",
               "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ToolsUserController.cs",
               "RelativeDocumentMoniker": "PP_5\\Controllers\\ToolsUserController.cs",
               "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ToolsUserController.cs",
               "RelativeToolTip": "PP_5\\Controllers\\ToolsUserController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAUwCsAAAA8AAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T18:51:18.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\ToolsUser\\Orders.cshtml",
+              "RelativeDocumentMoniker": "PP_5\\Views\\ToolsUser\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Views\\ToolsUser\\Orders.cshtml",
+              "RelativeToolTip": "PP_5\\Views\\ToolsUser\\Orders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T19:55:19.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PP_5\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Product.cs",
+              "RelativeToolTip": "PP_5\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:39:48.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Order.cs",
               "RelativeDocumentMoniker": "PP_5\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Order.cs",
               "RelativeToolTip": "PP_5\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T19:27:22.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product_in_Order.cs",
-              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Product_in_Order.cs",
-              "RelativeDocumentMoniker": "PP_5\\Models\\Product_in_Order.cs",
-              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Product_in_Order.cs",
-              "RelativeToolTip": "PP_5\\Models\\Product_in_Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:26:58.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "PP_5\\Models\\Customer.cs",
               "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Models\\Customer.cs",
               "RelativeToolTip": "PP_5\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T19:26:54.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "PP_5\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\\u0413\u043E\u0441\u043F\u043E\u0434\u0438\u043D\\Desktop\\PP_5\\PP_5\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "PP_5\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAcwH0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:55:07.998Z",
               "EditorCaption": ""
             }
           ]
