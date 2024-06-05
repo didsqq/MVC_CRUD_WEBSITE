@@ -34,7 +34,7 @@ namespace PP_5.Controllers
                 {
                     ModelState.AddModelError("", $"Пользователь не найден: {ex.Message}");
                 }
-                if (existingCustomer != null)
+                if (existingCustomer.Password != null || existingCustomer.Email != null || existingCustomer != null)
                 {
                     Session["CurrentCustomer"] = existingCustomer;
                     if (existingCustomer.root == UserRole.ADMIN)

@@ -25,14 +25,13 @@
                         Count = c.Int(nullable: false),
                         Warranty_Period = c.Int(nullable: false),
                         ProviderID = c.Int(nullable: false),
-                        TypeID = c.Int(nullable: false),
-                        Component_Type_Component_TypeID = c.Int(),
+                        Component_TypeID = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.ProductID)
-                .ForeignKey("dbo.Component_Type", t => t.Component_Type_Component_TypeID)
+                .ForeignKey("dbo.Component_Type", t => t.Component_TypeID)
                 .ForeignKey("dbo.Provider", t => t.ProviderID, cascadeDelete: true)
                 .Index(t => t.ProviderID)
-                .Index(t => t.Component_Type_Component_TypeID);
+                .Index(t => t.Component_TypeID);
             
             CreateTable(
                 "dbo.Product_in_Order",

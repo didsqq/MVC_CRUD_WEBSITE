@@ -188,3 +188,15 @@ C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.AddEnum.re
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.202405301943148_AddUserRoleToCustomer.resources
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.deletetable.resources
 C:\Users\Господин\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.sqlmoneytodecimal.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\bin\SendGrid.dll
+C:\Users\Адель\Desktop\PP_5\PP_5\bin\StarkbankEcdsa.dll
+C:\Users\Адель\Desktop\PP_5\PP_5\bin\SendGrid.pdb
+C:\Users\Адель\Desktop\PP_5\PP_5\bin\SendGrid.xml
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.InitialCreate.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.AddEnum.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.202405301943148_AddUserRoleToCustomer.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.deletetable.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.sqlmoneytodecimal.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.csproj.GenerateResource.cache
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.updatedb.resources
+C:\Users\Адель\Desktop\PP_5\PP_5\obj\Debug\PP_5.Migrations.updatedbb.resources

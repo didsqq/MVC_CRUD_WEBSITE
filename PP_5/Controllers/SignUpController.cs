@@ -30,18 +30,23 @@ namespace PP_5.Controllers
                 string phonePattern = @"^(\+?\d{1,3}[-.\s]?(\(?\d{1,4}\)?)?[-.\s]?)?(\d{1,4}[-.\s]?){1,3}\d{1,4}$";
                 if (!_shopContext.Customers.Any(y => y.Phone == customer.Phone) && !_shopContext.Customers.Any(z => z.Email == customer.Email))
                 {
-                    if(Regex.IsMatch(customer.Email, emailPattern) && Regex.IsMatch(customer.Phone, phonePattern))
+                    if(!string.IsNullOrEmpty(customer.Email) && !string.IsNullOrEmpty(customer.Phone)) 
                     {
-                        customer.Password = SignInController.GetHashString(customer.Password);
-                        _shopContext.Customers.Add(customer);
-                        _shopContext.SaveChanges();
-                        return RedirectToAction("SignIn", "SignIn");
+                        if (Regex.IsMatch(customer.Email, emailPattern) && Regex.IsMatch(customer.Phone, phonePattern))
+                        {
+                            customer.Password = SignInController.GetHashString(customer.Password);
+                            _shopContext.Customers.Add(customer);
+                            _shopContext.SaveChanges();
+                            return RedirectToAction("SignIn", "SignIn");
+                        }
+                        else
+                        {
+                            ModelState.AddModelError("", "Почта или телефон не подходит");
+                            return View(customer);
+                        }
                     }
-                    else
-                    {
-                        ModelState.AddModelError("", "Почта или телефон не подходит");
-                        return View(customer);
-                    }
+                    ModelState.AddModelError("", "Заполните все данные");
+                    return View(customer);
                 }
                 ModelState.AddModelError("", "Пользователь с такими данными уже существует.");
             }

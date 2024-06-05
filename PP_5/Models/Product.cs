@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Data.SqlTypes;
@@ -16,7 +16,7 @@ namespace PP_5.Models
         public decimal Price { get; set; }
         public int Warranty_Period { get; set; }
         public int ProviderID { get; set; }
-        public int TypeID { get; set; }
+        public int Component_TypeID { get; set; }
 
         public virtual Provider Provider { get; set; }
         public virtual Component_Type Component_Type { get; set; }

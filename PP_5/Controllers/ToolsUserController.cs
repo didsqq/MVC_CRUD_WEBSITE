@@ -90,7 +90,7 @@ namespace PP_5.Controllers
                     ProductID = product.ProductID,
                     CustomerID = customer.CustomerID,
                     Total_Amount = product.Price * quantity,
-                    Status = "Новый заказ",
+                    Status = "Ожидание",
                     Product_Count = quantity,
                     Date = DateTime.Now
                 };

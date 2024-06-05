@@ -54,21 +54,21 @@ namespace PP_5.DAL
 
             var products = new List<Product>
             {
-                new Product{Name="Intel Core i5 9400F", Count=34, Price=10000, Warranty_Period=3, TypeID=1, ProviderID=2},
-                new Product{Name="AMD Ryzen 5 3600", Count=20, Price=12000, Warranty_Period=3, TypeID=1, ProviderID=6},
-                new Product{Name="NVIDIA GeForce RTX 3070", Count=15, Price=45000, Warranty_Period=3, TypeID=2, ProviderID=1},
-                new Product{Name="ASRock B450M Pro4", Count=25, Price=8000, Warranty_Period=3, TypeID=3, ProviderID=7},
-                new Product{Name="Corsair Vengeance LPX 16GB", Count=50, Price=6000, Warranty_Period=3, TypeID=4, ProviderID=8},
-                new Product{Name="Samsung 970 EVO Plus 1TB", Count=30, Price=15000, Warranty_Period=3, TypeID=5, ProviderID=3},
-                new Product{Name="Western Digital Blue 1TB", Count=40, Price=5000, Warranty_Period=3, TypeID=6, ProviderID=9},
-                new Product{Name="Cooler Master Hyper 212", Count=20, Price=2000, Warranty_Period=3, TypeID=8, ProviderID=13},
-                new Product{Name="MSI MPG GUNGNIR 110R", Count=10, Price=7000, Warranty_Period=3, TypeID=9, ProviderID=5},
-                new Product{Name="Dell UltraSharp U2720Q", Count=8, Price=35000, Warranty_Period=3, TypeID=10, ProviderID=1},
-                new Product{Name="Logitech G Pro X", Count=50, Price=8000, Warranty_Period=3, TypeID=11, ProviderID=1},
-                new Product{Name="Razer DeathAdder V2", Count=40, Price=6000, Warranty_Period=3, TypeID=12, ProviderID=1},
-                new Product{Name="Creative Sound Blaster Z", Count=15, Price=7000, Warranty_Period=3, TypeID=13, ProviderID=1},
-                new Product{Name="TP-Link Archer T6E", Count=25, Price=3000, Warranty_Period=3, TypeID=14, ProviderID=1},
-                new Product{Name="LG Ultra Slim Portable DVD Writer", Count=30, Price=2000, Warranty_Period=3, TypeID=14, ProviderID=1}
+                new Product{Name="Intel Core i5 9400F", Count=34, Price=10000, Warranty_Period=3, Component_TypeID=1, ProviderID=2},
+                new Product{Name="AMD Ryzen 5 3600", Count=20, Price=12000, Warranty_Period=3, Component_TypeID=1, ProviderID=6},
+                new Product{Name="NVIDIA GeForce RTX 3070", Count=15, Price=45000, Warranty_Period=3, Component_TypeID=2, ProviderID=1},
+                new Product{Name="ASRock B450M Pro4", Count=25, Price=8000, Warranty_Period=3, Component_TypeID=3, ProviderID=7},
+                new Product{Name="Corsair Vengeance LPX 16GB", Count=50, Price=6000, Warranty_Period=3, Component_TypeID=4, ProviderID=8},
+                new Product{Name="Samsung 970 EVO Plus 1TB", Count=30, Price=15000, Warranty_Period=3, Component_TypeID=5, ProviderID=3},
+                new Product{Name="Western Digital Blue 1TB", Count=40, Price=5000, Warranty_Period=3, Component_TypeID=6, ProviderID=9},
+                new Product{Name="Cooler Master Hyper 212", Count=20, Price=2000, Warranty_Period=3, Component_TypeID=8, ProviderID=13},
+                new Product{Name="MSI MPG GUNGNIR 110R", Count=10, Price=7000, Warranty_Period=3, Component_TypeID=9, ProviderID=5},
+                new Product{Name="Dell UltraSharp U2720Q", Count=8, Price=35000, Warranty_Period=3, Component_TypeID=10, ProviderID=1},
+                new Product{Name="Logitech G Pro X", Count=50, Price=8000, Warranty_Period=3, Component_TypeID=11, ProviderID=1},
+                new Product{Name="Razer DeathAdder V2", Count=40, Price=6000, Warranty_Period=3, Component_TypeID=12, ProviderID=1},
+                new Product{Name="Creative Sound Blaster Z", Count=15, Price=7000, Warranty_Period=3, Component_TypeID=13, ProviderID=1},
+                new Product{Name="TP-Link Archer T6E", Count=25, Price=3000, Warranty_Period=3, Component_TypeID=14, ProviderID=1},
+                new Product{Name="LG Ultra Slim Portable DVD Writer", Count=30, Price=2000, Warranty_Period=3, Component_TypeID=14, ProviderID=1}
             };
             products.ForEach(s => context.Products.Add(s));
 

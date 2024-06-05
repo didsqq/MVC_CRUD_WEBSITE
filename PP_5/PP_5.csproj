@@ -169,6 +169,14 @@
     <Compile Include="Migrations\202405302103379_sqlmoneytodecimal.Designer.cs">
       <DependentUpon>202405302103379_sqlmoneytodecimal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405310601565_updatedb.cs" />
+    <Compile Include="Migrations\202405310601565_updatedb.Designer.cs">
+      <DependentUpon>202405310601565_updatedb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405310618579_updatedbb.cs" />
+    <Compile Include="Migrations\202405310618579_updatedbb.Designer.cs">
+      <DependentUpon>202405310618579_updatedbb.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Component_Type.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -309,6 +317,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405302103379_sqlmoneytodecimal.resx">
       <DependentUpon>202405302103379_sqlmoneytodecimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405310601565_updatedb.resx">
+      <DependentUpon>202405310601565_updatedb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405310618579_updatedbb.resx">
+      <DependentUpon>202405310618579_updatedbb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
